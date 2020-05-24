@@ -4,17 +4,17 @@ reviewed for any harmfull and unharmfull aspects.
 ]]
 
 
-local example = {}
+local resource = {
 
 -- Startup and info are mandatory in order for a module to connect.
 
-example.startup = function()
+startup = function()
 	print("Example loaded!")
-end
+end,
 
 -- Info is for descriptions, if you dont want to provide a description, replace it with ("").
 
-example.info = function()
+info = function()
 	local info = ([[
 	Version: 1.0
 	Info: Example moulde for creating extensions!
@@ -22,10 +22,10 @@ example.info = function()
 	Last Updated: 5/24/2020
 	]])
 	return
-end
+end,
 
-example.speak = function()
+speak = function()
 	print("Welcome!")
-end
+end}
 
 return example
