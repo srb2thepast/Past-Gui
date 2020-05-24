@@ -1,6 +1,6 @@
 --[[
 If you want to commit a new module to the root, create a mdoule and initaite a pull request. The module script will then be 
-reviewed for any harmfull and unharmfull aspects.
+reviewed for any harmfull and unharmfull aspects. 
 ]]
 
 
