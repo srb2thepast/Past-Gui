@@ -21,7 +21,7 @@ info = function()
 	Created: 5/23/2020
 	Last Updated: 5/24/2020
 	]])
-	return
+	return info
 end,
 
 speak = function()
