@@ -28,4 +28,4 @@ speak = function()
 	print("Welcome!")
 end}
 
-return example
+return resource
